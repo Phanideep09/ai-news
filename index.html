@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>AI Radar</title>
+
+<link rel="manifest" href="manifest.json" />
+<meta name="theme-color" content="#0B1420" />
+<link rel="apple-touch-icon" href="icon-192.png" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="AI Radar" />
+
+<!-- Inline favicon so the browser never has to 404-request a file -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230B1420'/%3E%3Ccircle cx='50' cy='50' r='34' fill='none' stroke='%235EEAD4' stroke-opacity='0.5' stroke-width='3'/%3E%3Ccircle cx='50' cy='50' r='22' fill='none' stroke='%235EEAD4' stroke-opacity='0.5' stroke-width='3'/%3E%3Ccircle cx='50' cy='50' r='10' fill='none' stroke='%235EEAD4' stroke-width='3'/%3E%3Cpath d='M50 50 L50 16 A34 34 0 0 1 79 33 Z' fill='%23FF9F53' fill-opacity='0.55'/%3E%3Ccircle cx='72' cy='28' r='6' fill='%23FF9F53'/%3E%3C/svg%3E" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --bg: #0B1420;
+    --surface: #121B2B;
+    --surface-2: #17233A;
+    --line: #223049;
+    --text: #E8EDF4;
+    --muted: #8592A6;
+    --teal: #5EEAD4;
+    --amber: #FF9F53;
+    --violet: #B7A6FF;
+    --radius: 16px;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'IBM Plex Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    overscroll-behavior-y: contain;
+  }
+
+  body { padding-bottom: env(safe-area-inset-bottom, 0); min-height: 100vh; }
+  a { color: inherit; }
+  .mono { font-family: 'IBM Plex Mono', monospace; letter-spacing: 0.02em; }
+  button { font-family: inherit; }
+
+  /* ---------------- Header ---------------- */
+
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: linear-gradient(180deg, var(--bg) 75%, transparent);
+    padding: calc(env(safe-area-inset-top, 0) + 20px) 20px 12px;
+  }
+
+  .header-row { display: flex; align-items: center; gap: 14px; }
+
+  .radar-mark {
+    position: relative;
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+  .radar-mark::before {
+    content: "";
+    position: absolute;
+    inset: 6px;
+    border-radius: 50%;
+    border: 1px solid #5EEAD444;
+  }
+  .radar-mark::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: 1px;
+    background: linear-gradient(90deg, var(--amber), transparent);
+    transform-origin: left center;
+    animation: sweep 3.5s linear infinite;
+  }
+  @keyframes sweep { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+
+  .title-block { flex: 1; min-width: 0; }
+
+  h1 {
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: 600;
+    font-size: 22px;
+    margin: 0;
+    line-height: 1.1;
+  }
+
+  .subtitle { color: var(--muted); font-size: 12.5px; margin-top: 2px; }
+
+  .icon-btn {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    color: var(--muted);
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    flex-shrink: 0;
+  }
+  .icon-btn:active { transform: scale(0.95); }
+  .icon-btn svg { width: 18px; height: 18px; }
+
+  .status-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+    font-size: 12px;
+    color: var(--muted);
+  }
+
+  #refreshBtn {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    color: var(--teal);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    padding: 7px 12px;
+    border-radius: 999px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  #refreshBtn:active { transform: scale(0.97); }
+  #refreshBtn.loading .dot { animation: blink 0.9s ease-in-out infinite; }
+  @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.25; } }
+
+  .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--teal); display: inline-block; }
+
+  /* ---------------- Filter chips ---------------- */
+
+  .chips { display: flex; gap: 8px; margin-top: 14px; overflow-x: auto; padding-bottom: 2px; scrollbar-width: none; }
+  .chips::-webkit-scrollbar { display: none; }
+
+  .chip {
+    flex-shrink: 0;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding: 6px 12px;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+    background: transparent;
+    color: var(--muted);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .chip .count { opacity: 0.6; }
+  .chip.active { color: var(--bg); background: var(--teal); border-color: var(--teal); }
+  .chip.active .count { opacity: 0.7; }
+
+  /* ---------------- Feed ---------------- */
+
+  main { padding: 8px 20px 60px; max-width: 640px; margin: 0 auto; }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 16px 16px 16px 14px;
+    margin-top: 12px;
+    border-left: 3px solid var(--cat-color, var(--teal));
+    animation: rise 0.35s ease both;
+  }
+  @keyframes rise { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+
+  .card-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+  .card-meta .source { color: var(--cat-color, var(--teal)); }
+
+  .card-title {
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 16.5px;
+    font-weight: 500;
+    line-height: 1.35;
+    margin: 8px 0 10px;
+  }
+  .card-title a { text-decoration: none; }
+  .card-title a:hover { text-decoration: underline; }
+
+  .highlight {
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #D7E2EE;
+    padding-top: 8px;
+    border-top: 1px dashed var(--line);
+  }
+  .highlight .glyph { color: var(--amber); font-family: 'IBM Plex Mono', monospace; flex-shrink: 0; }
+
+  /* ---------------- Skeletons ---------------- */
+
+  .skeleton-card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 16px;
+    margin-top: 12px;
+  }
+  .skel-line {
+    height: 10px;
+    border-radius: 6px;
+    background: linear-gradient(90deg, var(--surface-2) 25%, #1d2c47 37%, var(--surface-2) 63%);
+    background-size: 400% 100%;
+    animation: shimmer 1.4s ease infinite;
+  }
+  @keyframes shimmer { 0% { background-position: 100% 0; } 100% { background-position: -100% 0; } }
+  .skel-line.w40 { width: 40%; margin-bottom: 10px; }
+  .skel-line.w80 { width: 80%; height: 14px; margin-bottom: 8px; }
+  .skel-line.w60 { width: 60%; height: 14px; margin-bottom: 14px; }
+  .skel-line.w95 { width: 95%; }
+
+  /* ---------------- Empty / error states ---------------- */
+
+  .empty {
+    text-align: center;
+    color: var(--muted);
+    padding: 80px 24px;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .empty .big { font-family: 'IBM Plex Serif', serif; color: var(--text); font-size: 18px; margin-bottom: 8px; }
+
+  footer {
+    text-align: center;
+    color: var(--line);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10.5px;
+    padding: 20px;
+  }
+
+  .toast {
+    position: fixed;
+    bottom: calc(env(safe-area-inset-bottom, 0) + 20px);
+    left: 50%;
+    transform: translateX(-50%) translateY(20px);
+    background: var(--surface-2);
+    border: 1px solid var(--line);
+    color: var(--text);
+    font-size: 13px;
+    padding: 10px 16px;
+    border-radius: 999px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s ease, transform 0.25s ease;
+    z-index: 30;
+    max-width: 85vw;
+    text-align: center;
+  }
+  .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+  /* ---------------- Settings sheet ---------------- */
+
+  .scrim {
+    position: fixed;
+    inset: 0;
+    background: rgba(5, 9, 16, 0.6);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+    z-index: 40;
+  }
+  .scrim.show { opacity: 1; pointer-events: auto; }
+
+  .sheet {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--surface);
+    border-top: 1px solid var(--line);
+    border-radius: 20px 20px 0 0;
+    padding: 8px 20px calc(env(safe-area-inset-bottom, 0) + 24px);
+    transform: translateY(100%);
+    transition: transform 0.25s ease;
+    z-index: 41;
+    max-width: 640px;
+    margin: 0 auto;
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+  .sheet.show { transform: translateY(0); }
+
+  .sheet-handle {
+    width: 36px;
+    height: 4px;
+    background: var(--line);
+    border-radius: 999px;
+    margin: 10px auto 16px;
+  }
+
+  .sheet h2 {
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0 0 14px;
+  }
+
+  .sheet h3 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 12.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--muted);
+    margin: 20px 0 10px;
+  }
+
+  .status-grid {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 8px 12px;
+    font-size: 13px;
+  }
+  .status-grid .label { color: var(--muted); }
+  .status-grid .value { font-family: 'IBM Plex Mono', monospace; text-align: right; }
+  .value.ok { color: var(--teal); }
+  .value.warn { color: var(--amber); }
+
+  .info-card {
+    background: var(--surface-2);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 13px 16px;
+    margin-bottom: 10px;
+    font-size: 13.5px;
+    line-height: 1.55;
+  }
+  .info-card b { color: var(--teal); }
+  .info-card .steps { margin: 8px 0 0; padding-left: 18px; color: var(--muted); }
+  .info-card .steps li { margin-bottom: 3px; }
+
+  .sheet-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 10px;
+    color: var(--teal);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12.5px;
+    text-decoration: none;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-row">
+    <div class="radar-mark" aria-hidden="true"></div>
+    <div class="title-block">
+      <h1>AI Radar</h1>
+      <div class="subtitle">Data-analyst tools &amp; major AI news — one line on why it matters</div>
+    </div>
+    <button class="icon-btn" id="settingsBtn" aria-label="Settings">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+    </button>
+  </div>
+
+  <div class="status-line">
+    <span id="lastChecked" class="mono">—</span>
+    <button id="refreshBtn"><span class="dot"></span><span id="refreshLabel">reload</span></button>
+  </div>
+
+  <div class="chips" id="chips">
+    <button class="chip active" data-filter="all">All <span class="count" id="count-all"></span></button>
+    <button class="chip" data-filter="news">News <span class="count" id="count-news"></span></button>
+    <button class="chip" data-filter="tool">Tools <span class="count" id="count-tool"></span></button>
+    <button class="chip" data-filter="research">Research <span class="count" id="count-research"></span></button>
+  </div>
+</header>
+
+<main id="feed">
+  <div class="skeleton-card"><div class="skel-line w40"></div><div class="skel-line w80"></div><div class="skel-line w60"></div><div class="skel-line w95"></div></div>
+  <div class="skeleton-card"><div class="skel-line w40"></div><div class="skel-line w80"></div><div class="skel-line w60"></div><div class="skel-line w95"></div></div>
+  <div class="skeleton-card"><div class="skel-line w40"></div><div class="skel-line w80"></div><div class="skel-line w60"></div><div class="skel-line w95"></div></div>
+</main>
+
+<footer>AI RADAR · UPDATES AUTOMATICALLY EVERY ~3 HOURS VIA GITHUB ACTIONS</footer>
+
+<div class="toast" id="toast"></div>
+
+<div class="scrim" id="scrim"></div>
+<div class="sheet" id="sheet">
+  <div class="sheet-handle"></div>
+  <h2>Status &amp; how it works</h2>
+  <div class="status-grid" id="statusGrid">
+    <span class="label">Data last updated</span><span class="value mono" id="stat-updated">—</span>
+    <span class="label">Items stored</span><span class="value mono" id="stat-cached">—</span>
+  </div>
+
+  <h3>How this stays running</h3>
+  <div class="info-card">
+    Checks run automatically on <b>GitHub's servers</b> every ~3 hours — not
+    your computer. Notifications and new articles keep coming even if your
+    laptop is off, asleep, or far away.
+  </div>
+
+  <h3>Test notifications</h3>
+  <div class="info-card">
+    Go to your GitHub repository → <b>Actions</b> tab → select
+    <b>"Send test notification"</b> → click <b>Run workflow</b>. You should
+    get a push within a few seconds.
+  </div>
+
+  <h3>Reset &amp; rescan everything</h3>
+  <div class="info-card">
+    Go to <b>Actions</b> → <b>"Check AI feeds"</b> → <b>Run workflow</b> →
+    type <code>yes</code> into the reset box → Run. This makes every current
+    article look new again.
+  </div>
+
+  <a class="sheet-link" id="actionsLink" href="#" target="_blank" rel="noopener" style="display:none">
+    Open GitHub Actions →
+  </a>
+</div>
+
+<script>
+// If you'd like the "Open GitHub Actions" link above to work directly,
+// fill in your repo's URL here after you create it, e.g.
+// "https://github.com/yourusername/ai-radar"
+const GITHUB_REPO_URL = "";
+
+const CATEGORY_MAP = {
+  "TechCrunch AI": { cat: "news", color: "#5EEAD4" },
+  "The Verge AI": { cat: "news", color: "#5EEAD4" },
+  "Hacker News (AI)": { cat: "news", color: "#5EEAD4" },
+  "Product Hunt": { cat: "tool", color: "#FF9F53" },
+  "arXiv cs.AI": { cat: "research", color: "#B7A6FF" },
+};
+
+let currentFilter = "all";
+let allItems = [];
+
+function timeAgo(iso) {
+  if (!iso) return "";
+  const diffMs = Date.now() - new Date(iso).getTime();
+  const mins = Math.floor(diffMs / 60000);
+  if (mins < 1) return "just now";
+  if (mins < 60) return `${mins}m ago`;
+  const hrs = Math.floor(mins / 60);
+  if (hrs < 24) return `${hrs}h ago`;
+  const days = Math.floor(hrs / 24);
+  return `${days}d ago`;
+}
+
+function escapeHtml(str) {
+  const div = document.createElement("div");
+  div.textContent = str || "";
+  return div.innerHTML;
+}
+
+function updateCounts() {
+  const counts = { all: allItems.length, news: 0, tool: 0, research: 0 };
+  allItems.forEach((it) => {
+    const meta = CATEGORY_MAP[it.source] || { cat: "news" };
+    if (counts[meta.cat] !== undefined) counts[meta.cat]++;
+  });
+  Object.entries(counts).forEach(([key, val]) => {
+    const el = document.getElementById(`count-${key}`);
+    if (el) el.textContent = val > 0 ? val : "";
+  });
+}
+
+function render() {
+  const feed = document.getElementById("feed");
+  const items = allItems.filter((it) => {
+    if (currentFilter === "all") return true;
+    const meta = CATEGORY_MAP[it.source] || { cat: "news" };
+    return meta.cat === currentFilter;
+  });
+
+  if (items.length === 0) {
+    feed.innerHTML = `
+      <div class="empty">
+        <div class="big">No signal yet</div>
+        No new items match this filter yet. New articles are checked
+        automatically every few hours.
+      </div>`;
+    return;
+  }
+
+  feed.innerHTML = items.map((it) => {
+    const meta = CATEGORY_MAP[it.source] || { cat: "news", color: "#5EEAD4" };
+    return `
+      <article class="card" style="--cat-color:${meta.color}">
+        <div class="card-meta">
+          <span class="source">${escapeHtml(it.source)}</span>
+          <span>${timeAgo(it.fetched_at)}</span>
+        </div>
+        <div class="card-title">
+          <a href="${it.link}" target="_blank" rel="noopener">${escapeHtml(it.title)}</a>
+        </div>
+        <div class="highlight">
+          <span class="glyph">→</span>
+          <span>${escapeHtml(it.highlight)}</span>
+        </div>
+      </article>`;
+  }).join("");
+}
+
+function showToast(msg) {
+  const toast = document.getElementById("toast");
+  toast.textContent = msg;
+  toast.classList.add("show");
+  setTimeout(() => toast.classList.remove("show"), 2400);
+}
+
+async function loadFeed(isManual) {
+  try {
+    // cache: no-store + a timestamp query param so we always get the latest
+    // committed data, bypassing any browser or CDN caching.
+    const res = await fetch(`data/feed_cache.json?t=${Date.now()}`, { cache: "no-store" });
+    if (!res.ok) throw new Error("not ok");
+    allItems = await res.json();
+    updateCounts();
+    render();
+    document.getElementById("lastChecked").textContent =
+      allItems.length ? `last item ${timeAgo(allItems[0].fetched_at)}` : "no items yet";
+    if (isManual) showToast("Reloaded latest data");
+  } catch (e) {
+    document.getElementById("feed").innerHTML = `
+      <div class="empty">
+        <div class="big">No data yet</div>
+        Either the site was just deployed and the first check hasn't run
+        yet, or something's misconfigured. Trigger "Check AI feeds" once
+        manually from the Actions tab to seed it.
+      </div>`;
+  }
+}
+
+async function manualRefresh() {
+  const btn = document.getElementById("refreshBtn");
+  const label = document.getElementById("refreshLabel");
+  btn.classList.add("loading");
+  label.textContent = "reloading…";
+  await loadFeed(true);
+  btn.classList.remove("loading");
+  label.textContent = "reload";
+}
+
+document.getElementById("refreshBtn").addEventListener("click", manualRefresh);
+
+document.getElementById("chips").addEventListener("click", (e) => {
+  const chip = e.target.closest(".chip");
+  if (!chip) return;
+  document.querySelectorAll(".chip").forEach((c) => c.classList.remove("active"));
+  chip.classList.add("active");
+  currentFilter = chip.dataset.filter;
+  render();
+});
+
+// ---------------- Settings sheet ----------------
+
+const sheet = document.getElementById("sheet");
+const scrim = document.getElementById("scrim");
+
+function openSheet() {
+  const updatedEl = document.getElementById("stat-updated");
+  updatedEl.textContent = allItems.length ? timeAgo(allItems[0].fetched_at) : "no data yet";
+  document.getElementById("stat-cached").textContent = allItems.length;
+
+  const link = document.getElementById("actionsLink");
+  if (GITHUB_REPO_URL) {
+    link.href = `${GITHUB_REPO_URL}/actions`;
+    link.style.display = "inline-flex";
+  }
+
+  sheet.classList.add("show");
+  scrim.classList.add("show");
+}
+function closeSheet() {
+  sheet.classList.remove("show");
+  scrim.classList.remove("show");
+}
+
+document.getElementById("settingsBtn").addEventListener("click", openSheet);
+scrim.addEventListener("click", closeSheet);
+
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("sw.js").catch(() => {});
+  });
+}
+
+loadFeed(false);
+setInterval(() => loadFeed(false), 5 * 60 * 1000); // quietly re-check every 5 min while app is open
+</script>
+
+</body>
+</html>

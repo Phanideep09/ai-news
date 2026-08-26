@@ -1,0 +1,49 @@
+name: Check AI feeds
+
+on:
+  schedule:
+    # Runs every 3 hours. GitHub may delay this by a few minutes under load —
+    # that's normal and not something you need to worry about.
+    - cron: "0 */3 * * *"
+  workflow_dispatch:
+    inputs:
+      reset:
+        description: "Type 'yes' to treat ALL current articles as new again"
+        required: false
+        default: "no"
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Reset seen-items memory (only if requested)
+        if: ${{ github.event.inputs.reset == 'yes' }}
+        run: rm -f docs/data/seen_state.json docs/data/feed_cache.json
+
+      - name: Fetch feeds and send notifications
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python check_and_notify.py
+
+      - name: Commit updated feed data
+        run: |
+          git config user.name "ai-radar-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/data/seen_state.json docs/data/feed_cache.json
+          git diff --staged --quiet || git commit -m "Update feed data"
+          git push
