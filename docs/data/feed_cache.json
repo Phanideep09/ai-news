@@ -1,5 +1,25 @@
 [
   {
+    "id": "https://techcrunch.com/?p=3163478",
+    "source": "TechCrunch AI",
+    "title": "Only at TechCrunch Disrupt 2026: What happens when OpenAI ships your roadmap?",
+    "summary": "If you're building an AI company, the question isn't whether foundation models will continue to evolve. It's whether your company will continue creating value as they do. Don't miss this interactive session on the Builders Stage at TechCrunch Disrupt 2026.",
+    "link": "https://techcrunch.com/2026/09/14/only-at-techcrunch-disrupt-2026-what-happens-when-openai-ships-your-roadmap/",
+    "published": "Mon, 14 Sep 2026 15:00:00 +0000",
+    "highlight": "Only at TechCrunch Disrupt 2026: What happens when OpenAI ships your roadmap?",
+    "fetched_at": "2026-09-14T17:20:12.223924+00:00"
+  },
+  {
+    "id": "http://arxiv.org/abs/2609.13031v1",
+    "source": "arXiv cs.AI",
+    "title": "Attention Quantization for Tabular Foundation Models",
+    "summary": "With the recent rise and adoption of tabular foundation models, optimizing their inference performance becomes an emerging field for efficiency research. While the models are architecturally similar to transformer-based large language models (LLMs), the size and serving patterns differ significantly. We show that the focus should be on the attention calculation and less on weight or KV cache quantization, which are more popular in LLMs. We develop a quantization strategy for queries, keys, and values to FP8 and use explicit FP8 matrix multiplication instructions to speed up the attention calcu",
+    "link": "https://arxiv.org/abs/2609.13031v1",
+    "published": "2026-09-11T16:31:29Z",
+    "highlight": "Attention Quantization for Tabular Foundation Models",
+    "fetched_at": "2026-09-14T17:20:12.993715+00:00"
+  },
+  {
     "id": "https://news.ycombinator.com/item?id=49694138",
     "source": "Hacker News (AI)",
     "title": "Are We Reinventing the Tools of Data Engineering for AI?",
