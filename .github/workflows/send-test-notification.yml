@@ -1,0 +1,20 @@
+name: Send test notification
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send a test push via ntfy
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          if [ -z "$NTFY_TOPIC" ]; then
+            echo "NTFY_TOPIC secret is not set — add it under Settings > Secrets and variables > Actions."
+            exit 1
+          fi
+          curl -s -H "Title: AI Radar" -H "Tags: robot" \
+            -d "If you see this, notifications are working correctly." \
+            "https://ntfy.sh/$NTFY_TOPIC"
