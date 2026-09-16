@@ -1,5 +1,15 @@
 [
   {
+    "id": "http://arxiv.org/abs/2609.17107v1",
+    "source": "arXiv cs.AI",
+    "title": "Symbolic Separation: Grounding Deep Agents in Knowledge Graphs for Trustworthy Operational Data Analytics",
+    "summary": "Generative AI promises natural language access to the massive numerical telemetry of data centers and Industry 4.0 installations, yet text-to-query and tool-using agents stay unreliable: even frontier models answer little more than half of real-world database questions, and far fewer of the multi-step, operational ones, because the LLM must compose how heterogeneous sources relate and hallucinates the relations, not just the fields. We propose symbolic separation: a deep agent reasons freely but may act on data only through an ontology-constrained Virtual Knowledge Graph with deterministic pre",
+    "link": "https://arxiv.org/abs/2609.17107v1",
+    "published": "2026-09-15T12:38:43Z",
+    "highlight": "Symbolic Separation: Grounding Deep Agents in Knowledge Graphs for Trustworthy Operational Data Analytics",
+    "fetched_at": "2026-09-16T02:39:39.122268+00:00"
+  },
+  {
     "id": "https://techcrunch.com/?p=3163504",
     "source": "TechCrunch AI",
     "title": "Discover how to take your startup from prototype to production at TechCrunch Disrupt 2026",
