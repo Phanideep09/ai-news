@@ -1,5 +1,15 @@
 [
   {
+    "id": "http://arxiv.org/abs/2609.20732v1",
+    "source": "arXiv cs.AI",
+    "title": "Q&A on Any Spreadsheet Requires Interpreting Its Grid Structure",
+    "summary": "Semantic cell annotation improves chunking interpretability for spreadsheets in LLM-driven RAG systems, aiding answer generation through enriched context rather than improved retrieval accuracy. We propose a novel framework of splitting any spreadsheet into interpretable chunks using cell role annotation. Our framework beats the state of the art, yet it faces a hard ceiling. Spreadsheets are fundamentally two-dimensional unstructured data with continuous relationships and infinite potential cell roles. Because classification models are restricted to finite, pre-defined classes, they cannot per",
+    "link": "https://arxiv.org/abs/2609.20732v1",
+    "published": "2026-09-17T17:22:43Z",
+    "highlight": "Q&A on Any Spreadsheet Requires Interpreting Its Grid Structure",
+    "fetched_at": "2026-09-18T13:17:16.537673+00:00"
+  },
+  {
     "id": "http://arxiv.org/abs/2609.20359v1",
     "source": "arXiv cs.AI",
     "title": "Accelerating Sharded Data Parallelism at Scale with Federated Learning",
