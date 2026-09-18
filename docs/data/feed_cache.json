@@ -1,5 +1,25 @@
 [
   {
+    "id": "http://arxiv.org/abs/2609.20359v1",
+    "source": "arXiv cs.AI",
+    "title": "Accelerating Sharded Data Parallelism at Scale with Federated Learning",
+    "summary": "The symbiotic scaling of artificial intelligence models and high-performance computing systems continually creates algorithmic challenges in their convergence. Foundation models (FMs) are a crucial example, requiring months-long training on thousands of cutting-edge GPUs. Sharded data parallelism (DP) is the dominant strategy to accelerate such computations by splitting data and models across multiple GPUs. However, it incurs prohibitive communication overhead when deployed at scale, particularly on multi-tier interconnects with heterogeneous performance. Inspired by the efficient communicatio",
+    "link": "https://arxiv.org/abs/2609.20359v1",
+    "published": "2026-09-17T13:21:52Z",
+    "highlight": "Accelerating Sharded Data Parallelism at Scale with Federated Learning",
+    "fetched_at": "2026-09-18T02:30:57.844577+00:00"
+  },
+  {
+    "id": "http://arxiv.org/abs/2609.20156v1",
+    "source": "arXiv cs.AI",
+    "title": "QUALS: Corpus Equilibrium for Universal Forecasting via Pattern Quantization and Learnability Synchronization",
+    "summary": "Ubiquitous time series data across diverse domains enables critical applications in areas such as transportation systems and power grids. Recently, training foundation models on massive datasets to achieve accurate zero-shot forecasting has emerged as a major research focus. However, current studies predominantly prioritize architectural innovations while insufficiently addressing data diversity, often relying on simple data sampling strategies that fail to manage complex data distributions effectively, leading to inefficient use of training data and suboptimal performance. To address this, we",
+    "link": "https://arxiv.org/abs/2609.20156v1",
+    "published": "2026-09-17T12:47:17Z",
+    "highlight": "QUALS: Corpus Equilibrium for Universal Forecasting via Pattern Quantization and Learnability Synchronization",
+    "fetched_at": "2026-09-18T02:30:58.482766+00:00"
+  },
+  {
     "id": "http://arxiv.org/abs/2609.18916v1",
     "source": "arXiv cs.AI",
     "title": "Higher-order pruning of experts in mixture-of-experts language models",
