@@ -1,5 +1,15 @@
 [
   {
+    "id": "tag:www.producthunt.com,2005:Post/1252832",
+    "source": "Product Hunt",
+    "title": "Bolt Forge",
+    "summary": "<p>\n            Bolt's new agent with open-source models and 50X usage\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/bolt-new?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1252832?app_id=339\">Link</a>\n          </p>",
+    "link": "https://www.producthunt.com/products/bolt-new",
+    "published": "2026-09-16T16:59:56-07:00",
+    "highlight": "Bolt Forge",
+    "fetched_at": "2026-09-19T07:41:44.289557+00:00"
+  },
+  {
     "id": "http://arxiv.org/abs/2609.20732v1",
     "source": "arXiv cs.AI",
     "title": "Q&A on Any Spreadsheet Requires Interpreting Its Grid Structure",
