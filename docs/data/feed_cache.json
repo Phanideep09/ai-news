@@ -1,5 +1,15 @@
 [
   {
+    "id": "tag:www.producthunt.com,2005:Post/1242556",
+    "source": "Product Hunt",
+    "title": "Embedful",
+    "summary": "<p>\n             Launch customer dashboards in minutes\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/embedful?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1242556?app_id=339\">Link</a>\n          </p>",
+    "link": "https://www.producthunt.com/products/embedful",
+    "published": "2026-09-05T20:28:24-07:00",
+    "highlight": "Embedful",
+    "fetched_at": "2026-09-20T08:09:17.113470+00:00"
+  },
+  {
     "id": "tag:www.producthunt.com,2005:Post/1252832",
     "source": "Product Hunt",
     "title": "Bolt Forge",
