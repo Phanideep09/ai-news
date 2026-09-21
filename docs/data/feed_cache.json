@@ -1,5 +1,15 @@
 [
   {
+    "id": "https://techcrunch.com/?p=3167032",
+    "source": "TechCrunch AI",
+    "title": "Meta\u2019s AI agent has been blocked from using Amazon.com",
+    "summary": "Amazon has its own cohort of foundation models, along with one of the most popular inference platforms on the internet. As long as they're under no legal obligation to open the doors to Muse, why would they?",
+    "link": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/",
+    "published": "Mon, 21 Sep 2026 17:55:18 +0000",
+    "highlight": "Meta\u2019s AI agent has been blocked from using Amazon.com",
+    "fetched_at": "2026-09-21T21:30:08.106676+00:00"
+  },
+  {
     "id": "tag:www.producthunt.com,2005:Post/1242556",
     "source": "Product Hunt",
     "title": "Embedful",
