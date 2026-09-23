@@ -1,5 +1,15 @@
 [
   {
+    "id": "http://arxiv.org/abs/2609.26637v1",
+    "source": "arXiv cs.AI",
+    "title": "Capable yet Parsimonious: Extracting and Characterizing Hidden Chain-of-Thought in Frontier Models",
+    "summary": "The rapid capability gains of frontier language models are widely attributed to improved reasoning abilities, yet this cannot be verified as raw CoT traces in closed-source systems are hidden. By registering a simple custom tool through a standard API feature, we induce frontier models to externalize intermediate reasoning. Because these traces may reflect post-hoc rationalization rather than genuine reasoning, we first evaluate against native CoT on open-source models and extend to closed-source frontier models including GPT-6 Astra. We find that the extracted reasoning matches native reasoni",
+    "link": "https://arxiv.org/abs/2609.26637v1",
+    "published": "2026-09-22T16:10:18Z",
+    "highlight": "Capable yet Parsimonious: Extracting and Characterizing Hidden Chain-of-Thought in Frontier Models",
+    "fetched_at": "2026-09-23T18:45:18.308553+00:00"
+  },
+  {
     "id": "https://news.ycombinator.com/item?id=49815970",
     "source": "Hacker News (AI)",
     "title": "Benchmarking LLM query generation across SQL, Cypher, and TypeQL",
