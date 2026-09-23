@@ -1,5 +1,15 @@
 [
   {
+    "id": "https://news.ycombinator.com/item?id=49815970",
+    "source": "Hacker News (AI)",
+    "title": "Benchmarking LLM query generation across SQL, Cypher, and TypeQL",
+    "summary": "<p>Article URL: <a href=\"https://typedb.com/blog/benchmarking-llm-query-generation-across-sql-cypher-and-typeql\">https://typedb.com/blog/benchmarking-llm-query-generation-across-sql-cypher-and-typeql</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49815970\">https://news.ycombinator.com/item?id=49815970</a></p>\n<p>Points: 1</p>\n<p># Comments: 1</p>",
+    "link": "https://typedb.com/blog/benchmarking-llm-query-generation-across-sql-cypher-and-typeql",
+    "published": "Wed, 23 Sep 2026 13:37:23 +0000",
+    "highlight": "Benchmarking LLM query generation across SQL, Cypher, and TypeQL",
+    "fetched_at": "2026-09-23T13:59:39.180037+00:00"
+  },
+  {
     "id": "http://arxiv.org/abs/2609.26779v1",
     "source": "arXiv cs.AI",
     "title": "CliffCompaction: Cost-Efficient Compaction for Long-Horizon Coding Agents",
