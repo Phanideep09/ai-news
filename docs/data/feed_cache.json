@@ -1,5 +1,15 @@
 [
   {
+    "id": "http://arxiv.org/abs/2609.26347v1",
+    "source": "arXiv cs.AI",
+    "title": "TransBERT: A Framework for Synthetic Translation in Domain-Specific Language Modeling",
+    "summary": "The scarcity of non-English language data in specialized domains significantly limits the development of effective Natural Language Processing (NLP) tools. We present TransBERT, a novel framework for pre-training language models using exclusively synthetically translated text, and introduce TransCorpus, a scalable translation toolkit. Focusing on the life sciences domain in French, our approach demonstrates that state-of-the-art performance on various downstream tasks can be achieved solely by leveraging synthetically translated data. We release the TransCorpus toolkit, the TransCorpus-bio-fr ",
+    "link": "https://arxiv.org/abs/2609.26347v1",
+    "published": "2026-09-22T12:53:35Z",
+    "highlight": "TransBERT: A Framework for Synthetic Translation in Domain-Specific Language Modeling",
+    "fetched_at": "2026-09-23T02:40:25.301486+00:00"
+  },
+  {
     "id": "https://techcrunch.com/?p=3167633",
     "source": "TechCrunch AI",
     "title": "OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes",
