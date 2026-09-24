@@ -1,5 +1,15 @@
 [
   {
+    "id": "https://news.ycombinator.com/item?id=49837913",
+    "source": "Hacker News (AI)",
+    "title": "Building an Ultra-High Throughput AI-SQL Engine",
+    "summary": "<p>Article URL: <a href=\"https://fsdatalab.github.io/blog/introducing-quail/\">https://fsdatalab.github.io/blog/introducing-quail/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49837913\">https://news.ycombinator.com/item?id=49837913</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+    "link": "https://fsdatalab.github.io/blog/introducing-quail/",
+    "published": "Thu, 24 Sep 2026 22:56:37 +0000",
+    "highlight": "Building an Ultra-High Throughput AI-SQL Engine",
+    "fetched_at": "2026-09-24T23:42:24.723675+00:00"
+  },
+  {
     "id": "http://arxiv.org/abs/2609.26637v1",
     "source": "arXiv cs.AI",
     "title": "Capable yet Parsimonious: Extracting and Characterizing Hidden Chain-of-Thought in Frontier Models",
