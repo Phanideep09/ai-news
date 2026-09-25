@@ -1,5 +1,15 @@
 [
   {
+    "id": "http://arxiv.org/abs/2609.30226v1",
+    "source": "arXiv cs.AI",
+    "title": "PoEM: Predicting RL Outcomes from Existing Policies",
+    "summary": "Foundation models are post-trained with reinforcement learning (RL) to maximize specific rewards, such as human alignment, correctness, or instruction following. This post-training process is computationally intensive, sometimes unstable, and has to be run from scratch every time the reward model changes or when we want to combine multiple rewards. We hence ask: given a new reward function, is it possible to predict the RL outcomes without actually running RL on it? We answer this in the affirmative by introducing PoEM, a framework to predict the outputs of RL on a new reward function using a ",
+    "link": "https://arxiv.org/abs/2609.30226v1",
+    "published": "2026-09-24T17:50:25Z",
+    "highlight": "PoEM: Predicting RL Outcomes from Existing Policies",
+    "fetched_at": "2026-09-25T02:47:00.558800+00:00"
+  },
+  {
     "id": "https://news.ycombinator.com/item?id=49837913",
     "source": "Hacker News (AI)",
     "title": "Building an Ultra-High Throughput AI-SQL Engine",
