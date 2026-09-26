@@ -1,5 +1,15 @@
 [
   {
+    "id": "tag:www.producthunt.com,2005:Post/1258050",
+    "source": "Product Hunt",
+    "title": "TourKit",
+    "summary": "<p>\n            Lightweight product tours with a hosted dashboard\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/tourkit?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1258050?app_id=339\">Link</a>\n          </p>",
+    "link": "https://www.producthunt.com/products/tourkit",
+    "published": "2026-09-22T03:04:14-07:00",
+    "highlight": "TourKit",
+    "fetched_at": "2026-09-26T13:31:53.239559+00:00"
+  },
+  {
     "id": "tag:www.producthunt.com,2005:Post/1260549",
     "source": "Product Hunt",
     "title": "Basedash MCP write",
