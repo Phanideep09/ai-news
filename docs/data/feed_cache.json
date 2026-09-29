@@ -1,5 +1,15 @@
 [
   {
+    "id": "http://arxiv.org/abs/2609.35699v1",
+    "source": "arXiv cs.AI",
+    "title": "Distillation Defenses Easily Break After Reinforcement Learning",
+    "summary": "Distillation attacks copy the reasoning capabilities of closed-source large language models, allowing bad actors to replicate state-of-the-art performance at low cost. Attackers systematically collect a large volume of frontier model reasoning traces and then train (i.e., \"distill\") their own models on these traces. Existing defenses against distillation attacks are typically evaluated immediately after distillation, implicitly assuming attackers do not train their models any further. In this paper, we argue that a more realistic threat model includes further training with reinforcement learni",
+    "link": "https://arxiv.org/abs/2609.35699v1",
+    "published": "2026-09-28T17:40:32Z",
+    "highlight": "Distillation Defenses Easily Break After Reinforcement Learning",
+    "fetched_at": "2026-09-29T17:23:11.555876+00:00"
+  },
+  {
     "id": "http://arxiv.org/abs/2609.31460v1",
     "source": "arXiv cs.AI",
     "title": "Segment-Level Agentic Topic Modeling for Improved Data Exploration and Resource Efficiency",
