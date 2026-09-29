@@ -1,5 +1,15 @@
 [
   {
+    "id": "http://arxiv.org/abs/2609.31460v1",
+    "source": "arXiv cs.AI",
+    "title": "Segment-Level Agentic Topic Modeling for Improved Data Exploration and Resource Efficiency",
+    "summary": "Topic modeling is an effective technique for discovering hidden themes within documents and is widely used in text mining and data analysis across a variety of industry sectors. Recently, large language model (LLM)-based topic models have been emerged that prompt LLMs to generate topics then assign the topics to documents, producing more natural and human-readable topics than conventional topic modeling algorithms. However, the nature of topic assignment process causes certain drawbacks, such as the incapability to produce topic distributions over a document, too broad or narrow topics, and hi",
+    "link": "https://arxiv.org/abs/2609.31460v1",
+    "published": "2026-09-25T16:11:42Z",
+    "highlight": "Segment-Level Agentic Topic Modeling for Improved Data Exploration and Resource Efficiency",
+    "fetched_at": "2026-09-29T00:45:32.711688+00:00"
+  },
+  {
     "id": "tag:www.producthunt.com,2005:Post/1258050",
     "source": "Product Hunt",
     "title": "TourKit",
