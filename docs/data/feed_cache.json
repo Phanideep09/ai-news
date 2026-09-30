@@ -1,5 +1,15 @@
 [
   {
+    "id": "http://arxiv.org/abs/2609.38178v1",
+    "source": "arXiv cs.AI",
+    "title": "Skill-Space Shooting for Autonomous Robot Policy Improvement",
+    "summary": "Robots deployed in the physical world must be able to improve beyond their initial training as they encounter new situations and failures. For this improvement to scale across tasks, it must make effective use of experience without requiring human demonstration of each correction. Recent agentic systems offer a way to reduce this reliance on human effort by using foundation models to autonomously compose learned behaviors to complete tasks. Yet completing tasks this way does not itself teach a task policy to overcome its own failures; that requires turning these behaviors into learnable correc",
+    "link": "https://arxiv.org/abs/2609.38178v1",
+    "published": "2026-09-29T17:59:55Z",
+    "highlight": "Skill-Space Shooting for Autonomous Robot Policy Improvement",
+    "fetched_at": "2026-09-30T11:40:52.845983+00:00"
+  },
+  {
     "id": "https://news.ycombinator.com/item?id=49903139",
     "source": "Hacker News (AI)",
     "title": "Thinking out loud AI and Cancer Cure",
