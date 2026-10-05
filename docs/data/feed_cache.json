@@ -1,5 +1,15 @@
 [
   {
+    "id": "http://arxiv.org/abs/2610.03265v1",
+    "source": "arXiv cs.AI",
+    "title": "SPEAR: A Spectral-Disentangled MoE Neural Operator with Knowledge-Guided Expert Aggregation for Large-Scale PDE Pretraining",
+    "summary": "Large-scale pre-training has improved the generalization of neural operators across diverse PDEs. However, existing PDE foundation models still struggle with heterogeneous dynamics, where shared representations may cause knowledge interference, while mixture-of-experts (MoE) architectures suffer from increasing expert redundancy. We propose SPEAR, a spectral-disentangled MoE neural operator with knowledge-guided expert aggregation for large-scale PDE pre-training. SPEAR decouples latent features into low- and high-frequency components, enabling shared modeling of transferable dynamics and spec",
+    "link": "https://arxiv.org/abs/2610.03265v1",
+    "published": "2026-10-02T13:10:09Z",
+    "highlight": "SPEAR: A Spectral-Disentangled MoE Neural Operator with Knowledge-Guided Expert Aggregation for Large-Scale PDE Pretraining",
+    "fetched_at": "2026-10-05T03:20:25.005168+00:00"
+  },
+  {
     "id": "http://arxiv.org/abs/2610.02186v1",
     "source": "arXiv cs.AI",
     "title": "Higher-Order Molecular Grammars for Generative and Foundation Models in Chemistry",
