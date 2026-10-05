@@ -1,5 +1,15 @@
 [
   {
+    "id": "https://techcrunch.com/?p=3173686",
+    "source": "TechCrunch AI",
+    "title": "HackerRank\u2019s AI interviewer offers a glimpse into what job interviews could become",
+    "summary": "HackerRank\u2019s AI interviewer has already conducted more than 500,000 interviews, with Snowflake, Snorkel, and Capgemini among its early testers.",
+    "link": "https://techcrunch.com/2026/10/05/hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-interviews-could-become/",
+    "published": "Mon, 05 Oct 2026 16:43:35 +0000",
+    "highlight": "HackerRank\u2019s AI interviewer offers a glimpse into what job interviews could become",
+    "fetched_at": "2026-10-05T21:44:56.098706+00:00"
+  },
+  {
     "id": "http://arxiv.org/abs/2610.03265v1",
     "source": "arXiv cs.AI",
     "title": "SPEAR: A Spectral-Disentangled MoE Neural Operator with Knowledge-Guided Expert Aggregation for Large-Scale PDE Pretraining",
