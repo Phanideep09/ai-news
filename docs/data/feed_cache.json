@@ -1,5 +1,35 @@
 [
   {
+    "id": "https://news.ycombinator.com/item?id=49973382",
+    "source": "Hacker News (AI)",
+    "title": "Ask HN: What do you think about AI generated slides for conferences?",
+    "summary": "<p>As in many other areas (e.g. code, emails, PRs, blog posts), people have started using LLMs to generate slides for their conference talks (e.g., set of HTML pages as a talk).<p>On the one hand, the slides look tidy, neat, and precise, with infographics, plots, dashboards, and so on. Nothing to complain about.<p>On the other hand, they look, hm, like LLM generated web sites, like soulless, if I may say so. I don't know why, but I don't enjoy reading them, even though they probably provide more value than hand crafted.<p>What's your current take?</p>\n<hr />\n<p>Comments URL: <a href=\"https://n",
+    "link": "https://news.ycombinator.com/item?id=49973382",
+    "published": "Tue, 06 Oct 2026 02:16:24 +0000",
+    "highlight": "Ask HN: What do you think about AI generated slides for conferences?",
+    "fetched_at": "2026-10-06T04:07:47.435065+00:00"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=49972760",
+    "source": "Hacker News (AI)",
+    "title": "Schema-guard, stop AI agents from inventing column names in SQL",
+    "summary": "<p>Article URL: <a href=\"https://github.com/idk-arsh/schema-guard\">https://github.com/idk-arsh/schema-guard</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49972760\">https://news.ycombinator.com/item?id=49972760</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+    "link": "https://github.com/idk-arsh/schema-guard",
+    "published": "Tue, 06 Oct 2026 00:46:04 +0000",
+    "highlight": "Schema-guard, stop AI agents from inventing column names in SQL",
+    "fetched_at": "2026-10-06T04:07:48.149388+00:00"
+  },
+  {
+    "id": "http://arxiv.org/abs/2610.05863v1",
+    "source": "arXiv cs.AI",
+    "title": "CCQ: A Multi-State Child Care Quality Dataset to Support AI for Children's Health Research",
+    "summary": "High-quality child care in early life is a critical determinant of children's growth and development. Research on child care quality has been constrained by fragmented, non-research-friendly, and privacy-bound datasets. We present CCQ (Child Care Quality), a large-scale, de-identified dataset for applied data science research at the intersection of AI and early childhood health. CCQ integrates 59,372 child care provider records across 12 U.S. states, covering diverse provider types as well as data schemas. To ensure research utility while protecting privacy, we implement an automated, LLM-base",
+    "link": "https://arxiv.org/abs/2610.05863v1",
+    "published": "2026-10-05T06:30:09Z",
+    "highlight": "CCQ: A Multi-State Child Care Quality Dataset to Support AI for Children's Health Research",
+    "fetched_at": "2026-10-06T04:07:48.845074+00:00"
+  },
+  {
     "id": "https://techcrunch.com/?p=3173686",
     "source": "TechCrunch AI",
     "title": "HackerRank\u2019s AI interviewer offers a glimpse into what job interviews could become",
