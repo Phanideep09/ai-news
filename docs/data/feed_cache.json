@@ -1,5 +1,15 @@
 [
   {
+    "id": "http://arxiv.org/abs/2610.06751v1",
+    "source": "arXiv cs.AI",
+    "title": "MatrixFormer: A Foundation Model for Matrix Completion",
+    "summary": "Matrix completion underlies problems from tabular imputation to causal inference, yet existing tabular foundation models treat it as entry-by-entry prediction, repeating context for every target and discarding the matrix's two-dimensional structure. We introduce MatrixFormer, a pre-trained matrix-native transformer that predicts a full distribution for every missing entry in a single forward pass. MatrixFormer is trained entirely on synthetic low-rank and latent-factor matrices under diverse missingness patterns. Applied zero-shot and with the same model weights, MatrixFormer achieves competit",
+    "link": "https://arxiv.org/abs/2610.06751v1",
+    "published": "2026-10-05T17:28:38Z",
+    "highlight": "MatrixFormer: A Foundation Model for Matrix Completion",
+    "fetched_at": "2026-10-07T00:17:03.445573+00:00"
+  },
+  {
     "id": "https://news.ycombinator.com/item?id=49973382",
     "source": "Hacker News (AI)",
     "title": "Ask HN: What do you think about AI generated slides for conferences?",
