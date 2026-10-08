@@ -1,5 +1,25 @@
 [
   {
+    "id": "https://news.ycombinator.com/item?id=50003569",
+    "source": "Hacker News (AI)",
+    "title": "Show HN: LLMSchema \u2013 Dump your database schema as compact Markdown for AI agents",
+    "summary": "<p>I built this last year because I noticed my coding agents would infer my database schema from migration files and code. Which seemed inefficient.<p>Its a simple tool that creates compact markdown schema doc(s). Which I could reference in my AGENTS.md or directly in my prompts. I keep the docs up to date by running it as a part of my migration command.<p>It's a single Go binary, MIT licensed, and works as a CLI or a library. Supports Postgres, MySQL and SQLite.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50003569\">https://news.ycombinator.com/item?id=50003569</a",
+    "link": "https://github.com/tordrt/LLMSchema",
+    "published": "Thu, 08 Oct 2026 09:13:35 +0000",
+    "highlight": "Show HN: LLMSchema \u2013 Dump your database schema as compact Markdown for AI agents",
+    "fetched_at": "2026-10-08T09:46:25.766756+00:00"
+  },
+  {
+    "id": "http://arxiv.org/abs/2610.10498v1",
+    "source": "arXiv cs.AI",
+    "title": "EmbodiedRSI: Active Continual Robot Learning Through Hypothesis-Guided Co-Evolution",
+    "summary": "Robot foundation models provide strong visuomotor control, yet their performance can degrade when object positions or task instructions change. Further improvements often require post-training on substantial robot data, which can be costly to collect through methods such as teleoperation. Agentic harnesses can adapt around the model, but current self-evolving harnesses use robot trials inefficiently when deciding which code and skill changes to pursue. We introduce EmbodiedRSI, a self-evolving agentic harness that autonomously decides where to explore next and turns the resulting physical inte",
+    "link": "https://arxiv.org/abs/2610.10498v1",
+    "published": "2026-10-07T17:48:02Z",
+    "highlight": "EmbodiedRSI: Active Continual Robot Learning Through Hypothesis-Guided Co-Evolution",
+    "fetched_at": "2026-10-08T09:46:26.421426+00:00"
+  },
+  {
     "id": "http://arxiv.org/abs/2610.08782v1",
     "source": "arXiv cs.AI",
     "title": "4D-HOF: Hand-Object Flow Matching for Feed-Forward 4D Interaction Reconstruction",
