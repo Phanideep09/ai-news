@@ -1,5 +1,15 @@
 [
   {
+    "id": "http://arxiv.org/abs/2610.12386v1",
+    "source": "arXiv cs.AI",
+    "title": "ARC: A Reasoning Recipe for Robot Foundation Models",
+    "summary": "The prevailing approach to improving robot foundation models (RFMs) relies on larger models, more robot demonstrations, and costly training at scale. We show that there exists an effective and efficient complementary approach: the right reasoning recipe can substantially improve the zero-shot task performance of existing state-of-the-art RFMs. We refer to this recipe as ARC. It consists of three key ingredients: a reasoning trace, a scalable automatic labeling pipeline, and a strategy for adapting pretrained RFMs to use these traces for control. First, we find that effective reasoning traces s",
+    "link": "https://arxiv.org/abs/2610.12386v1",
+    "published": "2026-10-08T17:38:04Z",
+    "highlight": "ARC: A Reasoning Recipe for Robot Foundation Models",
+    "fetched_at": "2026-10-09T17:48:00.684731+00:00"
+  },
+  {
     "id": "https://news.ycombinator.com/item?id=50003569",
     "source": "Hacker News (AI)",
     "title": "Show HN: LLMSchema \u2013 Dump your database schema as compact Markdown for AI agents",
