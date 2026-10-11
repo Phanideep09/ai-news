@@ -1,5 +1,15 @@
 [
   {
+    "id": "https://news.ycombinator.com/item?id=50044089",
+    "source": "Hacker News (AI)",
+    "title": "Data Engineering for Multimodal AI",
+    "summary": "<p>Article URL: <a href=\"https://www.oreilly.com/library/view/data-engineering-for/9781098190774/\">https://www.oreilly.com/library/view/data-engineering-for/9781098190774/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50044089\">https://news.ycombinator.com/item?id=50044089</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+    "link": "https://www.oreilly.com/library/view/data-engineering-for/9781098190774/",
+    "published": "Sun, 11 Oct 2026 15:06:40 +0000",
+    "highlight": "Data Engineering for Multimodal AI",
+    "fetched_at": "2026-10-11T17:07:58.049656+00:00"
+  },
+  {
     "id": "tag:www.producthunt.com,2005:Post/1275017",
     "source": "Product Hunt",
     "title": "Claude Dashboards & Motion",
