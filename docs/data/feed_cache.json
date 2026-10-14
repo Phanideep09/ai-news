@@ -1,5 +1,15 @@
 [
   {
+    "id": "tag:www.producthunt.com,2005:Post/1273902",
+    "source": "Product Hunt",
+    "title": "Dashrendr",
+    "summary": "<p>\n            Build dashboards visually, embed them anywhere\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/dashrendr?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1273902?app_id=339\">Link</a>\n          </p>",
+    "link": "https://www.producthunt.com/products/dashrendr",
+    "published": "2026-10-08T07:41:41-07:00",
+    "highlight": "Dashrendr",
+    "fetched_at": "2026-10-14T23:34:23.376800+00:00"
+  },
+  {
     "id": "tag:www.producthunt.com,2005:Post/1269704",
     "source": "Product Hunt",
     "title": "Reason",
