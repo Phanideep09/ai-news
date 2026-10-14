@@ -1,5 +1,25 @@
 [
   {
+    "id": "http://arxiv.org/abs/2610.18868v1",
+    "source": "arXiv cs.AI",
+    "title": "Tev: Scaling Long-Horizon Agentic Environments with Dense Progress Rewards",
+    "summary": "Long-horizon agents have drawn growing attention for their ability to work autonomously -- from hours to days -- on economically valuable tasks, a capability essential to automated discovery and recursive self-improvement (RSI). Yet open-source models still struggle on long-horizon tasks, largely for lack of both training data and a working recipe, and scaling both is hard: long, complex tasks are difficult to curate and verify, and their rewards are sparse. We address both. First, we introduce Tev-Gym, the first long-horizon agent training dataset with verifiable, dense, progressive rewards -",
+    "link": "https://arxiv.org/abs/2610.18868v1",
+    "published": "2026-10-13T17:59:51Z",
+    "highlight": "Tev: Scaling Long-Horizon Agentic Environments with Dense Progress Rewards",
+    "fetched_at": "2026-10-14T08:15:44.791142+00:00"
+  },
+  {
+    "id": "http://arxiv.org/abs/2610.18860v1",
+    "source": "arXiv cs.AI",
+    "title": "AesCode: Aesthetic Code Generation with Decoupled Cross-Modal Rewards",
+    "summary": "Generating information-rich visual artifacts such as slides, posters, and dashboards as code is appealing because the outputs are structured, editable, and verifiable. Yet code models cannot see how their choices of layout and color come together on the canvas, often limiting spatial planning and aesthetic quality. Image generators excel at visual design but can misrender requested content, making their outputs unreliable targets for direct reproduction. We therefore introduce AesCode, which generates code grounded in the content prompt while using an image generated from the same prompt as an",
+    "link": "https://arxiv.org/abs/2610.18860v1",
+    "published": "2026-10-13T17:59:31Z",
+    "highlight": "AesCode: Aesthetic Code Generation with Decoupled Cross-Modal Rewards",
+    "fetched_at": "2026-10-14T08:15:45.540784+00:00"
+  },
+  {
     "id": "https://news.ycombinator.com/item?id=50044089",
     "source": "Hacker News (AI)",
     "title": "Data Engineering for Multimodal AI",
