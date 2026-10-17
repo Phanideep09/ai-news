@@ -1,5 +1,15 @@
 [
   {
+    "id": "tag:www.producthunt.com,2005:Post/1281682",
+    "source": "Product Hunt",
+    "title": "Maybloc",
+    "summary": "<p>\n            new SOTA for speech-to-text for multi-speaker audio\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/maybloc?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"http://www.producthunt.com/r/p/1281682?app_id=339\">Link</a>\n          </p>",
+    "link": "https://www.producthunt.com/products/maybloc",
+    "published": "2026-10-15T09:51:59-07:00",
+    "highlight": "Maybloc",
+    "fetched_at": "2026-10-17T02:23:55.913298+00:00"
+  },
+  {
     "id": "https://techcrunch.com/?post_type=tc_video&p=3176211",
     "source": "TechCrunch AI",
     "title": "An Nvidia insider-turned-VC on why robotics hasn\u2019t hit its ChatGPT moment, yet",
