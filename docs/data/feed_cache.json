@@ -1,5 +1,15 @@
 [
   {
+    "id": "tag:www.producthunt.com,2005:Post/1273893",
+    "source": "Product Hunt",
+    "title": "PasteKit",
+    "summary": "<p>\n            Format JSON, YAML & SQL privately\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/pastekit-2?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1273893?app_id=339\">Link</a>\n          </p>",
+    "link": "https://www.producthunt.com/products/pastekit-2",
+    "published": "2026-10-08T07:29:41-07:00",
+    "highlight": "PasteKit",
+    "fetched_at": "2026-10-18T07:37:34.869858+00:00"
+  },
+  {
     "id": "tag:www.producthunt.com,2005:Post/1281682",
     "source": "Product Hunt",
     "title": "Maybloc",
