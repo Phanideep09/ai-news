@@ -1,5 +1,15 @@
 [
   {
+    "id": "http://arxiv.org/abs/2610.23317v1",
+    "source": "arXiv cs.AI",
+    "title": "AgentOnto: Ontology-Guided LLM Agents for Enterprise Data Analytics",
+    "summary": "Enterprise data analysis requires agents to connect analytical requests with knowledge distributed across databases, business documents, and existing example tasks. Without an explicit representation of this knowledge, an agent may produce incorrect analytical results and cannot reliably incorporate feedback. We present AgentOnto, an ontology-guided LLM agent for enterprise data analytics. AgentOnto organizes heterogeneous enterprise knowledge into an ontology that directly guides analysis and incorporates confirmed feedback. Iterative Ontology Preparation further improves the ontology through",
+    "link": "https://arxiv.org/abs/2610.23317v1",
+    "published": "2026-10-16T11:22:38Z",
+    "highlight": "AgentOnto: Ontology-Guided LLM Agents for Enterprise Data Analytics",
+    "fetched_at": "2026-10-19T02:38:31.729085+00:00"
+  },
+  {
     "id": "tag:www.producthunt.com,2005:Post/1273893",
     "source": "Product Hunt",
     "title": "PasteKit",
