@@ -1,5 +1,15 @@
 [
   {
+    "id": "tag:www.producthunt.com,2005:Post/1284942",
+    "source": "Product Hunt",
+    "title": "croft",
+    "summary": "<p>\n            Data pipelines in TypeScript, on one DuckDB file\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/croft-2?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1284942?app_id=339\">Link</a>\n          </p>",
+    "link": "https://www.producthunt.com/products/croft-2",
+    "published": "2026-10-18T21:20:15-07:00",
+    "highlight": "croft",
+    "fetched_at": "2026-10-19T21:53:35.700419+00:00"
+  },
+  {
     "id": "http://arxiv.org/abs/2610.23801v1",
     "source": "arXiv cs.AI",
     "title": "Beyond SAEs: Consistent Concept Discovery with Sparse Coding",
