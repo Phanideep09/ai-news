@@ -1,5 +1,15 @@
 [
   {
+    "id": "http://arxiv.org/abs/2610.23801v1",
+    "source": "arXiv cs.AI",
+    "title": "Beyond SAEs: Consistent Concept Discovery with Sparse Coding",
+    "summary": "Sparse autoencoders (SAEs) explain foundation model representations by decomposing activations into sparse combinations of learned dictionary atoms. However, the learned dictionaries can vary across training runs, limiting the reliability and reproducibility of SAE-based analyses. We propose Consistent Sparse Dictionary Learning (ConSDL), which replaces the standard linear encoder with per-sample sparse coding. This is motivated by our synthetic analysis showing that coefficients from a single linear encoder pass are suboptimal compared with those obtained by per-sample optimization, suggestin",
+    "link": "https://arxiv.org/abs/2610.23801v1",
+    "published": "2026-10-16T17:25:11Z",
+    "highlight": "Beyond SAEs: Consistent Concept Discovery with Sparse Coding",
+    "fetched_at": "2026-10-19T08:19:50.650384+00:00"
+  },
+  {
     "id": "http://arxiv.org/abs/2610.23317v1",
     "source": "arXiv cs.AI",
     "title": "AgentOnto: Ontology-Guided LLM Agents for Enterprise Data Analytics",
