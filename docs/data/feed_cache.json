@@ -1,5 +1,15 @@
 [
   {
+    "id": "http://arxiv.org/abs/2610.28611v1",
+    "source": "arXiv cs.AI",
+    "title": "Semantic Observability for Autonomous Systems Diagnostics",
+    "summary": "Modern distributed microservice deployments generate massive volumes of heterogeneous, multi-format observability logs across physically and logically partitioned infrastructure. Isolating root causes during cascading failures remains an arduous task for Site Reliability Engineers (SREs), bottlenecked by manual keyword filtering and disjointed temporal correlation across monitoring dashboards. We introduce Semantic Observability, an autonomous multi-agent framework that unifies disparate log streams into a dynamic, queryable Property Graph Database. By modeling physical infrastructure topologi",
+    "link": "https://arxiv.org/abs/2610.28611v1",
+    "published": "2026-10-20T17:53:32Z",
+    "highlight": "Semantic Observability for Autonomous Systems Diagnostics",
+    "fetched_at": "2026-10-21T08:10:13.026806+00:00"
+  },
+  {
     "id": "tag:www.producthunt.com,2005:Post/1284942",
     "source": "Product Hunt",
     "title": "croft",
