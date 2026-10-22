@@ -1,5 +1,15 @@
 [
   {
+    "id": "http://arxiv.org/abs/2610.30072v1",
+    "source": "arXiv cs.AI",
+    "title": "Charts as Epistemic Actions for Experience-Driven Agentic Data Analysis",
+    "summary": "Data agents built on ReAct-style loops now execute complex analytical workflows over structured data, yet their intermediate reasoning still runs almost entirely through text. Human analysts instead move between numbers, tables, and charts, reading visual evidence to expose trends and anomalies that text summaries drop. We ask whether charts can serve as internal epistemic actions inside a data agent's reasoning loop, and how to teach an agent to use them. We first build \\probe{}, a suite of 200 controlled tasks under four matched interface conditions, and find a persistent gap between what ag",
+    "link": "https://arxiv.org/abs/2610.30072v1",
+    "published": "2026-10-21T17:26:53Z",
+    "highlight": "Charts as Epistemic Actions for Experience-Driven Agentic Data Analysis",
+    "fetched_at": "2026-10-22T14:15:29.144989+00:00"
+  },
+  {
     "id": "https://news.ycombinator.com/item?id=50189534",
     "source": "Hacker News (AI)",
     "title": "Databricks launches AI Runtime for managed GPU training on enterprise data",
