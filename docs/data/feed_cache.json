@@ -1,5 +1,15 @@
 [
   {
+    "id": "https://news.ycombinator.com/item?id=50189534",
+    "source": "Hacker News (AI)",
+    "title": "Databricks launches AI Runtime for managed GPU training on enterprise data",
+    "summary": "<p>Article URL: <a href=\"https://www.databricks.com/blog/ai-runtime-generally-available\">https://www.databricks.com/blog/ai-runtime-generally-available</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50189534\">https://news.ycombinator.com/item?id=50189534</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+    "link": "https://www.databricks.com/blog/ai-runtime-generally-available",
+    "published": "Thu, 22 Oct 2026 00:29:58 +0000",
+    "highlight": "Databricks launches AI Runtime for managed GPU training on enterprise data",
+    "fetched_at": "2026-10-22T02:42:44.364494+00:00"
+  },
+  {
     "id": "http://arxiv.org/abs/2610.28611v1",
     "source": "arXiv cs.AI",
     "title": "Semantic Observability for Autonomous Systems Diagnostics",
