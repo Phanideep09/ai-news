@@ -1,5 +1,15 @@
 [
   {
+    "id": "http://arxiv.org/abs/2610.31588v1",
+    "source": "arXiv cs.AI",
+    "title": "VERA: A Responsible AI Dashboard for Assessing LLM Deployments in Light of the EU AI Act",
+    "summary": "Institutions that deploy large language models in regulated settings often need technical evidence of responsible AI practices before approving a deployment. COMPL-AI provides a technical interpretation of the EU AI Act that organises this evidence under six principle groups and eighteen technical requirements, twelve of which current benchmarks can measure. The benchmark suites that produce this evidence are typically operated from a command line, while the staff who approve deployments are non-engineers. We present VERA, an open-source self-hosted dashboard deployed to facilitate responsible",
+    "link": "https://arxiv.org/abs/2610.31588v1",
+    "published": "2026-10-22T17:23:39Z",
+    "highlight": "VERA: A Responsible AI Dashboard for Assessing LLM Deployments in Light of the EU AI Act",
+    "fetched_at": "2026-10-23T13:59:06.452553+00:00"
+  },
+  {
     "id": "http://arxiv.org/abs/2610.30072v1",
     "source": "arXiv cs.AI",
     "title": "Charts as Epistemic Actions for Experience-Driven Agentic Data Analysis",
