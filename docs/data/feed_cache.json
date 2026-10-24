@@ -1,5 +1,15 @@
 [
   {
+    "id": "https://news.ycombinator.com/item?id=50217683",
+    "source": "Hacker News (AI)",
+    "title": "Alzheimer's breakthrough: 2 hrs of sleep restored without clearing brain plaques",
+    "summary": "<p>Article URL: <a href=\"https://www.sciencedaily.com/releases/2026/10/261018084421.htm\">https://www.sciencedaily.com/releases/2026/10/261018084421.htm</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50217683\">https://news.ycombinator.com/item?id=50217683</a></p>\n<p>Points: 14</p>\n<p># Comments: 1</p>",
+    "link": "https://www.sciencedaily.com/releases/2026/10/261018084421.htm",
+    "published": "Sat, 24 Oct 2026 01:53:10 +0000",
+    "highlight": "Alzheimer's breakthrough: 2 hrs of sleep restored without clearing brain plaques",
+    "fetched_at": "2026-10-24T02:44:10.439022+00:00"
+  },
+  {
     "id": "http://arxiv.org/abs/2610.31588v1",
     "source": "arXiv cs.AI",
     "title": "VERA: A Responsible AI Dashboard for Assessing LLM Deployments in Light of the EU AI Act",
