@@ -1,5 +1,15 @@
 [
   {
+    "id": "http://arxiv.org/abs/2610.32863v1",
+    "source": "arXiv cs.AI",
+    "title": "A Foundation Model for Policy In-Context Longitudinal Causal Effect Estimation",
+    "summary": "Longitudinal causal effect estimation is complicated by time-varying confounding and treatment-confounder feedback loops. Existing methods generally require data-specific nuisance-model fitting, and many are tailored to prespecified treatment sequences or prediction horizons, leading to time-consuming computation at deployment. We introduce *Policy In-Context Longitudinal causal Effect estimation with Prior-data Fitted Networks* (**PICLE-PFN**), the first foundation model for longitudinal causal effect estimation that supports *dynamic* treatment policies. PICLE-PFN represents target policies ",
+    "link": "https://arxiv.org/abs/2610.32863v1",
+    "published": "2026-10-23T16:34:49Z",
+    "highlight": "A Foundation Model for Policy In-Context Longitudinal Causal Effect Estimation",
+    "fetched_at": "2026-10-26T08:20:34.443795+00:00"
+  },
+  {
     "id": "http://arxiv.org/abs/2610.32891v1",
     "source": "arXiv cs.AI",
     "title": "Green Code or Costly Code? Evaluating the Energy Costs of Iterative LLM-Based Code Optimizations",
