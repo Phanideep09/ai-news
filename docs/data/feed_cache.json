@@ -1,5 +1,15 @@
 [
   {
+    "id": "http://arxiv.org/abs/2610.32891v1",
+    "source": "arXiv cs.AI",
+    "title": "Green Code or Costly Code? Evaluating the Energy Costs of Iterative LLM-Based Code Optimizations",
+    "summary": "Large Language Models (LLMs) are increasingly used to optimize code for performance. This practice often assumes that improvements in execution speed naturally translate into overall lower energy consumption. We challenge this assumption empirically by measuring whether performance-optimized code produced by LLM self-refinement pipelines is also energy-efficient relative to canonical human reference solutions, and whether the energy cost of the optimization process can be offset by subsequent execution-time savings. We evaluate 11 open-source models across four decoding configurations on all 1",
+    "link": "https://arxiv.org/abs/2610.32891v1",
+    "published": "2026-10-23T16:58:01Z",
+    "highlight": "Green Code or Costly Code? Evaluating the Energy Costs of Iterative LLM-Based Code Optimizations",
+    "fetched_at": "2026-10-26T02:33:04.247508+00:00"
+  },
+  {
     "id": "https://news.ycombinator.com/item?id=50217683",
     "source": "Hacker News (AI)",
     "title": "Alzheimer's breakthrough: 2 hrs of sleep restored without clearing brain plaques",
