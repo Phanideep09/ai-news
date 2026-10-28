@@ -1,5 +1,15 @@
 [
   {
+    "id": "http://arxiv.org/abs/2610.37585v1",
+    "source": "arXiv cs.AI",
+    "title": "Timestral",
+    "summary": "We introduce Timestral, a family of four time series foundation models for probabilistic forecasting, with 5M, 28M, 123M, and 209M parameters. Timestral sets a new state of the art on GIFT-Eval, TIME, and fev-bench, where Timestral-209M and Timestral-123M take the top two places on every metric. We achieve this with three ingredients: Decoupled Horizon Forecasting (DHF), which separates prediction tokens from the causally encoded context, so that longer horizons are trained without masking context and each observed value is both a forecast target and context for later forecasts; a covariate fr",
+    "link": "https://arxiv.org/abs/2610.37585v1",
+    "published": "2026-10-27T17:25:43Z",
+    "highlight": "Timestral",
+    "fetched_at": "2026-10-28T11:54:29.553898+00:00"
+  },
+  {
     "id": "http://arxiv.org/abs/2610.35767v1",
     "source": "arXiv cs.AI",
     "title": "Free to Look, Free to Reason: Simple LLM Harnesses Outdiagnose Hand-Crafted Root Cause Analysis Agents",
