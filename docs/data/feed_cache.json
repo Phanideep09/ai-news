@@ -1,5 +1,15 @@
 [
   {
+    "id": "https://techcrunch.com/?p=3182668",
+    "source": "TechCrunch AI",
+    "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+    "summary": "Mistral says its new model can afford organizations a kind of control over its cyber defenses that closed models can't.",
+    "link": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+    "published": "Thu, 29 Oct 2026 17:00:00 +0000",
+    "highlight": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+    "fetched_at": "2026-10-29T19:59:42.092755+00:00"
+  },
+  {
     "id": "tag:www.producthunt.com,2005:Post/1295138",
     "source": "Product Hunt",
     "title": "Basedash View-only members",
