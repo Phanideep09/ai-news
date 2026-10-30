@@ -1,5 +1,15 @@
 [
   {
+    "id": "http://arxiv.org/abs/2610.40636v1",
+    "source": "arXiv cs.AI",
+    "title": "Probing Spatial State Representations in Visual Foundation Models",
+    "summary": "An observer sees only part of the surrounding world, yet must keep track of what lies beyond the current view. Spatial perception therefore involves more than recognizing individual images: it calls for a persistent spatial state that is updated under self-motion and used to guide action. Do visual foundation models provide representations that support such a state? We study this question through four levels of spatial capability---spatial structure, object persistence, predictive spatial update, and actionability---using frozen-feature probes on ten representations under streaming egocentric ",
+    "link": "https://arxiv.org/abs/2610.40636v1",
+    "published": "2026-10-29T17:58:16Z",
+    "highlight": "Probing Spatial State Representations in Visual Foundation Models",
+    "fetched_at": "2026-10-30T09:21:47.709166+00:00"
+  },
+  {
     "id": "https://techcrunch.com/?p=3182668",
     "source": "TechCrunch AI",
     "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
