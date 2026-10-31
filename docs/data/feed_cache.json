@@ -1,5 +1,25 @@
 [
   {
+    "id": "https://news.ycombinator.com/item?id=50317562",
+    "source": "Hacker News (AI)",
+    "title": "PostgreSQL 19 Running Behind Schedule Due to AI/LLM Burden",
+    "summary": "<p>Article URL: <a href=\"https://www.phoronix.com/news/PostgreSQL-19-Late\">https://www.phoronix.com/news/PostgreSQL-19-Late</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50317562\">https://news.ycombinator.com/item?id=50317562</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+    "link": "https://www.phoronix.com/news/PostgreSQL-19-Late",
+    "published": "Sat, 31 Oct 2026 16:25:38 +0000",
+    "highlight": "PostgreSQL 19 Running Behind Schedule Due to AI/LLM Burden",
+    "fetched_at": "2026-10-31T16:37:11.765726+00:00"
+  },
+  {
+    "id": "tag:www.producthunt.com,2005:Post/1292905",
+    "source": "Product Hunt",
+    "title": "Seqora",
+    "summary": "<p>\n            Design your schema on a canvas. Seqora writes the SQL.\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/seqora?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1292905?app_id=339\">Link</a>\n          </p>",
+    "link": "https://www.producthunt.com/products/seqora",
+    "published": "2026-10-25T22:37:10-07:00",
+    "highlight": "Seqora",
+    "fetched_at": "2026-10-31T16:37:12.693199+00:00"
+  },
+  {
     "id": "http://arxiv.org/abs/2610.40636v1",
     "source": "arXiv cs.AI",
     "title": "Probing Spatial State Representations in Visual Foundation Models",
