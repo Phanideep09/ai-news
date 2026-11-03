@@ -1,5 +1,35 @@
 [
   {
+    "id": "tag:www.producthunt.com,2005:Post/1295210",
+    "source": "Product Hunt",
+    "title": "IQ",
+    "summary": "<p>\n            The dashboard for your team's AI use\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/iq-code?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1295210?app_id=339\">Link</a>\n          </p>",
+    "link": "https://www.producthunt.com/products/iq-code",
+    "published": "2026-10-27T16:21:31-07:00",
+    "highlight": "IQ",
+    "fetched_at": "2026-11-03T20:43:33.695208+00:00"
+  },
+  {
+    "id": "tag:www.producthunt.com,2005:Post/1301515",
+    "source": "Product Hunt",
+    "title": "Infino AI",
+    "summary": "<p>\n            Search, vectors and SQL over one Parquet copy, for agents\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/infino-ai?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1301515?app_id=339\">Link</a>\n          </p>",
+    "link": "https://www.producthunt.com/products/infino-ai",
+    "published": "2026-11-02T02:28:29-08:00",
+    "highlight": "Infino AI",
+    "fetched_at": "2026-11-03T20:43:34.241074+00:00"
+  },
+  {
+    "id": "http://arxiv.org/abs/2611.03551v1",
+    "source": "arXiv cs.AI",
+    "title": "Can LLM Agents Be Forward-Deployed Engineers? Requirement Discovery and Delivery for Enterprise Text-to-SQL",
+    "summary": "LLM coding agents can increasingly automate model post-training, but whether they can act as forward-deployed engineer (FDE) agents, discovering customer requirements and turning them into deployment decisions, remains unclear. We study this on a real enterprise text-to-SQL engagement: a simulated customer, grounded in the real use case's requirements, starts with an ambiguous request. An agent must discover acceptance criteria, data permissions, and hardware constraints in the discovery phase, then plan and execute a post-training recipe in the delivery phase. Across 15 models, the strongest ",
+    "link": "https://arxiv.org/abs/2611.03551v1",
+    "published": "2026-11-02T18:13:38Z",
+    "highlight": "Can LLM Agents Be Forward-Deployed Engineers? Requirement Discovery and Delivery for Enterprise Text-to-SQL",
+    "fetched_at": "2026-11-03T20:43:34.782033+00:00"
+  },
+  {
     "id": "http://arxiv.org/abs/2611.03641v1",
     "source": "arXiv cs.AI",
     "title": "From Natural Language to Exact Cover: A Neuro-Symbolic Approach to Zebra Puzzles",
