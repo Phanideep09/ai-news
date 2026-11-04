@@ -1,5 +1,15 @@
 [
   {
+    "id": "http://arxiv.org/abs/2611.05376v1",
+    "source": "arXiv cs.AI",
+    "title": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
+    "summary": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf. Yet people still forget what they once knew, miss what they are not looking at, fail to find the right words, and face hard choices without the benefit of their own history, because the machine that could help stands outside the situation. As AI moves into the physical world, attention has settled on one kind of intelligent individual, the embodied robot; we argue that the era o",
+    "link": "https://arxiv.org/abs/2611.05376v1",
+    "published": "2026-11-03T18:59:52Z",
+    "highlight": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
+    "fetched_at": "2026-11-04T10:14:35.334473+00:00"
+  },
+  {
     "id": "http://arxiv.org/abs/2611.03641v1",
     "source": "arXiv cs.AI",
     "title": "From Natural Language to Exact Cover: A Neuro-Symbolic Approach to Zebra Puzzles",
