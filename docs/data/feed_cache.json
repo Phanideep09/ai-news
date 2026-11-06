@@ -1,5 +1,15 @@
 [
   {
+    "id": "tag:www.producthunt.com,2005:Post/1305009",
+    "source": "Product Hunt",
+    "title": "Thunderduck Inc.",
+    "summary": "<p>\n            Modular Data Warehouse for Agentic Data Teams\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/thunderduck-inc?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1305009?app_id=339\">Link</a>\n          </p>",
+    "link": "https://www.producthunt.com/products/thunderduck-inc",
+    "published": "2026-11-04T21:38:06-08:00",
+    "highlight": "Thunderduck Inc.",
+    "fetched_at": "2026-11-06T10:12:30.998797+00:00"
+  },
+  {
     "id": "http://arxiv.org/abs/2611.05376v1",
     "source": "arXiv cs.AI",
     "title": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
