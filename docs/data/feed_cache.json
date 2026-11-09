@@ -1,5 +1,15 @@
 [
   {
+    "id": "http://arxiv.org/abs/2611.09892v1",
+    "source": "arXiv cs.AI",
+    "title": "On Agentic Manipulation Policies",
+    "summary": "Recent work on robot manipulation has focused on specialist policies trained on demonstrations. We show that generalist AI models can control manipulators more reliably than specialist policies such as vision-language-action models (VLAs) and world-action models (WAMs). We systematically analyze agentic manipulation policies (AMPs), in which a generalist AI model commands the manipulator directly, adapting its actions as the task unfolds. We present AMP1, a reference harness that runs unchanged across single-arm, bimanual, and mobile manipulation. AMP1 achieves state-of-the-art results on the ",
+    "link": "https://arxiv.org/abs/2611.09892v1",
+    "published": "2026-11-06T18:59:34Z",
+    "highlight": "On Agentic Manipulation Policies",
+    "fetched_at": "2026-11-09T10:42:55.139887+00:00"
+  },
+  {
     "id": "https://techcrunch.com/?p=3185376",
     "source": "TechCrunch AI",
     "title": "Underdog shows off a 32MB speech model in new demo",
