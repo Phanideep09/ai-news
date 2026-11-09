@@ -1,5 +1,25 @@
 [
   {
+    "id": "https://techcrunch.com/?p=3186369",
+    "source": "TechCrunch AI",
+    "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+    "summary": "Anthropic says the new models \"show improvements in areas like coding, reasoning, and vision,\" as well as in communicating more clearly with users.",
+    "link": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+    "published": "Mon, 09 Nov 2026 19:24:51 +0000",
+    "highlight": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+    "fetched_at": "2026-11-09T21:47:47.551037+00:00"
+  },
+  {
+    "id": "http://arxiv.org/abs/2611.09822v1",
+    "source": "arXiv cs.AI",
+    "title": "Discovering formally verified quantum programs with AI",
+    "summary": "The timeline by which quantum computers can solve breakthrough problems in science depends on improved quantum algorithms as much as on better hardware. Such algorithmic advances are typically achieved through many years of expert human collaboration. In mathematics and computer science, large language models have accelerated progress through automated discovery loops. However, quantum algorithms can only be evaluated by classical computers on restricted or small instances. Here we demonstrate automated discovery of quantum programs beyond these regimes including order-of-magnitude improvement",
+    "link": "https://arxiv.org/abs/2611.09822v1",
+    "published": "2026-11-06T18:08:06Z",
+    "highlight": "Discovering formally verified quantum programs with AI",
+    "fetched_at": "2026-11-09T21:47:48.175402+00:00"
+  },
+  {
     "id": "http://arxiv.org/abs/2611.09892v1",
     "source": "arXiv cs.AI",
     "title": "On Agentic Manipulation Policies",
