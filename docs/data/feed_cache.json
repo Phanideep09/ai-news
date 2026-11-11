@@ -1,5 +1,15 @@
 [
   {
+    "id": "http://arxiv.org/abs/2611.14425v1",
+    "source": "arXiv cs.AI",
+    "title": "Quantifying the Sampling Frequency Invariance of Time-Series Foundation Models for Sensor Data Applications",
+    "summary": "Time-Series Foundation Models (TSFMs) are increasingly used in sensor applications, where sampling frequency (SF) varies across sensors, devices, and operating modes (e.g., power saving). Ideally, TSFMs must remain effective during such SF changes, provided the SF retains task-critical bandwidth. In this paper, we stress-test 4 prominent TSFMs: MOMENT, Chronos-2, Moirai-MoE, and TimesFM, to quantify their SF-invariance and investigate whether their behavior tracks the resulting loss of information bandwidth rather than the SF value itself. Our stress-test probes 3 dimensions: (i) the shift in ",
+    "link": "https://arxiv.org/abs/2611.14425v1",
+    "published": "2026-11-10T18:01:23Z",
+    "highlight": "Quantifying the Sampling Frequency Invariance of Time-Series Foundation Models for Sensor Data Applications",
+    "fetched_at": "2026-11-11T21:40:32.850786+00:00"
+  },
+  {
     "id": "http://arxiv.org/abs/2611.14519v1",
     "source": "arXiv cs.AI",
     "title": "Medical Image Segmentation: Foundation Model Adaptation versus Task-Specific Training",
