@@ -1,5 +1,25 @@
 [
   {
+    "id": "http://arxiv.org/abs/2611.14519v1",
+    "source": "arXiv cs.AI",
+    "title": "Medical Image Segmentation: Foundation Model Adaptation versus Task-Specific Training",
+    "summary": "Foundation models pretrained on large natural-image collections are increasingly adapted for medical image segmentation, in the expectation that they will replace models trained for each task. Most comparisons, however, use data from the training distribution and a single task-specific baseline whose configuration is rarely justified, and therefore provide limited evidence of performance at new clinical sites. It also remains unclear how much of a foundation model must be adapted, and what determines this. We adapted a foundation model, DINOv2, with strategies ranging from tuning only its bias",
+    "link": "https://arxiv.org/abs/2611.14519v1",
+    "published": "2026-11-10T18:59:54Z",
+    "highlight": "Medical Image Segmentation: Foundation Model Adaptation versus Task-Specific Training",
+    "fetched_at": "2026-11-11T13:18:54.092753+00:00"
+  },
+  {
+    "id": "http://arxiv.org/abs/2611.14518v1",
+    "source": "arXiv cs.AI",
+    "title": "Toward Foundation Detection Models via Example-Based Grounding in EM-DETR",
+    "summary": "DeepLearning (DL)-based Computer-Aided Diagnostic (CAD) systems have shown great promise in supporting clinicians, but their performance heavily depends on the availability of large, well-annotated datasets. In medical lesion detection, the scarcity of comprehensive, stan dardized annotations and the heterogeneity of existing datasets limit the development of robust foundation models. In this work, we introduce a novel approach to building a multi-domain foundation model for le sion detection by integrating diverse medical image datasets annotated for both anatomical structures and abnormaliti",
+    "link": "https://arxiv.org/abs/2611.14518v1",
+    "published": "2026-11-10T18:59:17Z",
+    "highlight": "Toward Foundation Detection Models via Example-Based Grounding in EM-DETR",
+    "fetched_at": "2026-11-11T13:18:54.813188+00:00"
+  },
+  {
     "id": "https://techcrunch.com/?p=3186369",
     "source": "TechCrunch AI",
     "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
