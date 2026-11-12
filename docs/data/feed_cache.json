@@ -1,5 +1,25 @@
 [
   {
+    "id": "https://techcrunch.com/?p=3186547",
+    "source": "TechCrunch AI",
+    "title": "Databricks\u2019 new AI agent tells CEO Ali Ghodsi the unvarnished truth",
+    "summary": "With Databricks at 12,000 employees, AI Ghodsi is the first to admit that he can't know everyone and that they are unlikely to confess the things that go wrong to him. But he doesn't need them to. He uses Databricks' newly revised Genie agent for that.",
+    "link": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/",
+    "published": "Wed, 11 Nov 2026 15:00:00 +0000",
+    "highlight": "Databricks\u2019 new AI agent tells CEO Ali Ghodsi the unvarnished truth",
+    "fetched_at": "2026-11-12T05:08:42.567892+00:00"
+  },
+  {
+    "id": "http://arxiv.org/abs/2611.14356v1",
+    "source": "arXiv cs.AI",
+    "title": "EngineAgent: Agentizing On-Device LLM Inference Engines with Inference Stack Hierarchy Awareness and Hardware Abilities",
+    "summary": "Rapidly evolving LLM architectures and heterogeneous mobile hardware make supporting new models in on-device inference engines a recurring and costly system challenge. Each model may require coordinated changes across conversion, graph construction, operators, and hardware backends. Existing coding agents often miss these cross-layer dependencies and struggle to diagnose failures across host--device execution paths. We present EngineAgent, an agentic system for automating on-device LLM model enablement. Its key insight is to separate reusable engine and hardware knowledge from model-specific i",
+    "link": "https://arxiv.org/abs/2611.14356v1",
+    "published": "2026-11-10T17:16:47Z",
+    "highlight": "EngineAgent: Agentizing On-Device LLM Inference Engines with Inference Stack Hierarchy Awareness and Hardware Abilities",
+    "fetched_at": "2026-11-12T05:08:43.216431+00:00"
+  },
+  {
     "id": "http://arxiv.org/abs/2611.14425v1",
     "source": "arXiv cs.AI",
     "title": "Quantifying the Sampling Frequency Invariance of Time-Series Foundation Models for Sensor Data Applications",
