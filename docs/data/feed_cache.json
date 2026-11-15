@@ -1,5 +1,15 @@
 [
   {
+    "id": "https://news.ycombinator.com/item?id=50504643",
+    "source": "Hacker News (AI)",
+    "title": "Show HN: ShadowDiff \u2013 Shadow testing and SQL diffing for AI-migrated back ends",
+    "summary": "<p>Article URL: <a href=\"https://github.com/vishalrajofficial/ShadowDiff\">https://github.com/vishalrajofficial/ShadowDiff</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50504643\">https://news.ycombinator.com/item?id=50504643</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+    "link": "https://github.com/vishalrajofficial/ShadowDiff",
+    "published": "Sun, 15 Nov 2026 06:54:38 +0000",
+    "highlight": "Show HN: ShadowDiff \u2013 Shadow testing and SQL diffing for AI-migrated back ends",
+    "fetched_at": "2026-11-15T10:14:01.267969+00:00"
+  },
+  {
     "id": "tag:www.producthunt.com,2005:Post/1314746",
     "source": "Product Hunt",
     "title": "Pocket Studio for Supabase",
