@@ -1,5 +1,15 @@
 [
   {
+    "id": "https://news.ycombinator.com/item?id=50515156",
+    "source": "Hacker News (AI)",
+    "title": "Alibaba says new AI model cuts task costs by 60% and tightens cyber safeguards",
+    "summary": "<p>Article URL: <a href=\"https://www.scmp.com/tech/big-tech/article/3374540/alibaba-says-new-flagship-ai-model-cuts-task-costs-60-while-tightening-cyber-guardrails\">https://www.scmp.com/tech/big-tech/article/3374540/alibaba-says-new-flagship-ai-model-cuts-task-costs-60-while-tightening-cyber-guardrails</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50515156\">https://news.ycombinator.com/item?id=50515156</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+    "link": "https://www.scmp.com/tech/big-tech/article/3374540/alibaba-says-new-flagship-ai-model-cuts-task-costs-60-while-tightening-cyber-guardrails",
+    "published": "Mon, 16 Nov 2026 07:55:50 +0000",
+    "highlight": "Alibaba says new AI model cuts task costs by 60% and tightens cyber safeguards",
+    "fetched_at": "2026-11-16T10:25:59.270078+00:00"
+  },
+  {
     "id": "https://news.ycombinator.com/item?id=50504643",
     "source": "Hacker News (AI)",
     "title": "Show HN: ShadowDiff \u2013 Shadow testing and SQL diffing for AI-migrated back ends",
