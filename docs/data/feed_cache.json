@@ -1,5 +1,15 @@
 [
   {
+    "id": "http://arxiv.org/abs/2611.21562v1",
+    "source": "arXiv cs.AI",
+    "title": "Severe but Harmless: Stress-Testing Shift Severity for Frozen Time-Series Forecasters",
+    "summary": "Zero-shot time-series foundation models (TSFMs) have become attractive alternatives to task-specific models because they handle diverse downstream tasks, including anomaly detection and forecasting, without per-series training. However, time-series data undergo distribution shifts, and the dissimilarity between two regimes is commonly scored with statistical measures such as Wasserstein-1, where a higher score is read as a more severe shift. In systematic experiments using three established severity measures on nine regime shifts from three standard traffic datasets, we show that these measure",
+    "link": "https://arxiv.org/abs/2611.21562v1",
+    "published": "2026-11-16T18:40:35Z",
+    "highlight": "Severe but Harmless: Stress-Testing Shift Severity for Frozen Time-Series Forecasters",
+    "fetched_at": "2026-11-17T15:17:18.873699+00:00"
+  },
+  {
     "id": "https://news.ycombinator.com/item?id=50515156",
     "source": "Hacker News (AI)",
     "title": "Alibaba says new AI model cuts task costs by 60% and tightens cyber safeguards",
