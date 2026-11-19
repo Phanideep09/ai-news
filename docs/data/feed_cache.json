@@ -1,5 +1,15 @@
 [
   {
+    "id": "https://news.ycombinator.com/item?id=50558257",
+    "source": "Hacker News (AI)",
+    "title": "I will build an LLM to actively defend cyber attacks",
+    "summary": "<p>I have planned to develop an open-source LLM which will defend and try to safe guard the systems and servers.<p>I have divided the work into 4 parts\n1. Gather enough data which has all the details of attacks and responses to those attacks.\n2. Clean and prepare that data for training an open-source model (Add the ability to scan, control, defend on any misbehaviour with the system).\n3. Train it and test it in a battelground (I feel this is risky and I need help here).\n4. Try to deploy it and improve it, so that people defend themselves easily (it will be open-source).</p>\n<hr />\n<p>Comments ",
+    "link": "https://news.ycombinator.com/item?id=50558257",
+    "published": "Thu, 19 Nov 2026 10:19:13 +0000",
+    "highlight": "I will build an LLM to actively defend cyber attacks",
+    "fetched_at": "2026-11-19T10:58:46.827041+00:00"
+  },
+  {
     "id": "http://arxiv.org/abs/2611.21562v1",
     "source": "arXiv cs.AI",
     "title": "Severe but Harmless: Stress-Testing Shift Severity for Frozen Time-Series Forecasters",
