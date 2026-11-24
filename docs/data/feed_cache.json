@@ -1,5 +1,15 @@
 [
   {
+    "id": "http://arxiv.org/abs/2611.31190v1",
+    "source": "arXiv cs.AI",
+    "title": "Know When to Abstain: Conformal Confidence Estimation for Text-to-SQL",
+    "summary": "Text-to-SQL systems often return queries that execute successfully but answer the wrong question. Detecting these errors at deployment is hard because execution correctness is defined against a gold query, which exists only in labeled data. We formulate confidence estimation for Text-to-SQL as probabilistic query validation under a latent correctness variable that is observable at calibration time through gold-SQL execution and latent at deployment. Our estimator separates generation from validation. A generator LLM writes and executes the query, and a different critic LLM judges the query and",
+    "link": "https://arxiv.org/abs/2611.31190v1",
+    "published": "2026-11-23T18:42:54Z",
+    "highlight": "Know When to Abstain: Conformal Confidence Estimation for Text-to-SQL",
+    "fetched_at": "2026-11-24T19:49:40.199233+00:00"
+  },
+  {
     "id": "http://arxiv.org/abs/2611.30873v1",
     "source": "arXiv cs.AI",
     "title": "Semantic-aware Decoding for Diverse Text-to-SQL under Schema Ambiguity",
