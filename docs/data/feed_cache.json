@@ -1,5 +1,15 @@
 [
   {
+    "id": "http://arxiv.org/abs/2611.31850v1",
+    "source": "arXiv cs.AI",
+    "title": "Two-Stage Post-Training for Flow-Based Embodied Foundation Models",
+    "summary": "Large-scale pretraining provides embodied models with general capabilities, but reliable task execution still requires post training. In multitask settings, supervised fine-tuning (SFT) faces distribution mismatch between training and deployment, whereas reinforcement learning (RL) is limited by sparse rewards and uneven learning progress across tasks. Multi-teacher on policy distillation (MOPD) consolidates expert capabilities through dense supervision on the model's own trajectories, but achieving performance beyond the teachers remains challenging. We propose a two-stage post training frame",
+    "link": "https://arxiv.org/abs/2611.31850v1",
+    "published": "2026-11-24T02:49:16Z",
+    "highlight": "Two-Stage Post-Training for Flow-Based Embodied Foundation Models",
+    "fetched_at": "2026-11-25T03:53:24.589793+00:00"
+  },
+  {
     "id": "http://arxiv.org/abs/2611.31190v1",
     "source": "arXiv cs.AI",
     "title": "Know When to Abstain: Conformal Confidence Estimation for Text-to-SQL",
@@ -988,15 +998,5 @@
     "published": "Mon, 14 Sep 2026 09:31:09 +0000",
     "highlight": "Are We Reinventing the Tools of Data Engineering for AI?",
     "fetched_at": "2026-09-14T11:21:58.151498+00:00"
-  },
-  {
-    "id": "http://arxiv.org/abs/2609.13073v1",
-    "source": "arXiv cs.AI",
-    "title": "Autonomous Research for Open-Ended Problems: A Case Study on Telecom Ticket Retrieval",
-    "summary": "Recent breakthroughs in LLM-based systems and their abilities in problem solving and coding have allowed progress in the AI for Science paradigm, potentially replacing human roles in machine learning (ML) research. However, while several frameworks of fully autonomous end-to-end ML research have been proposed, successful implementations of them are often limited to problems with narrow search spaces, like language modeling or biomedical ML benchmarks. In this paper, we explore how autonomous research can be adapted to solve open-ended, industry-grade ML problems, by considering a case study: t",
-    "link": "https://arxiv.org/abs/2609.13073v1",
-    "published": "2026-09-11T17:09:15Z",
-    "highlight": "Autonomous Research for Open-Ended Problems: A Case Study on Telecom Ticket Retrieval",
-    "fetched_at": "2026-09-14T11:21:58.897134+00:00"
   }
 ]
