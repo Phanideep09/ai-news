@@ -1,5 +1,15 @@
 [
   {
+    "id": "http://arxiv.org/abs/2611.33059v1",
+    "source": "arXiv cs.AI",
+    "title": "ClusterVAD: Threshold-Free Unsupervised Voice Activity Detection with Pre-Trained Neural Representations",
+    "summary": "Voice activity detection (VAD) is one of the first steps in speech processing pipelines, from transcription and diarization to speech language models. Supervised detectors need labelled data and inherit the domain and annotation conventions of their training corpora. Existing unsupervised detectors rely on hand-crafted acoustic features which cannot benefit from data and degrade in far-field, noisy or atypical speech. We propose ClusterVAD, an unsupervised VAD built on frozen speech foundation model representations. Fitted once on a small set of untranscribed speech, it clusters the representa",
+    "link": "https://arxiv.org/abs/2611.33059v1",
+    "published": "2026-11-24T18:03:21Z",
+    "highlight": "ClusterVAD: Threshold-Free Unsupervised Voice Activity Detection with Pre-Trained Neural Representations",
+    "fetched_at": "2026-11-26T01:22:59.512627+00:00"
+  },
+  {
     "id": "http://arxiv.org/abs/2611.31850v1",
     "source": "arXiv cs.AI",
     "title": "Two-Stage Post-Training for Flow-Based Embodied Foundation Models",
@@ -988,15 +998,5 @@
     "published": "2026-09-11T16:31:29Z",
     "highlight": "Attention Quantization for Tabular Foundation Models",
     "fetched_at": "2026-09-14T17:20:12.993715+00:00"
-  },
-  {
-    "id": "https://news.ycombinator.com/item?id=49694138",
-    "source": "Hacker News (AI)",
-    "title": "Are We Reinventing the Tools of Data Engineering for AI?",
-    "summary": "<p>Article URL: <a href=\"https://www.ssp.sh/brain/are-we-reinventing-the-tools-of-data-engineering-for-ai/\">https://www.ssp.sh/brain/are-we-reinventing-the-tools-of-data-engineering-for-ai/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49694138\">https://news.ycombinator.com/item?id=49694138</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
-    "link": "https://www.ssp.sh/brain/are-we-reinventing-the-tools-of-data-engineering-for-ai/",
-    "published": "Mon, 14 Sep 2026 09:31:09 +0000",
-    "highlight": "Are We Reinventing the Tools of Data Engineering for AI?",
-    "fetched_at": "2026-09-14T11:21:58.151498+00:00"
   }
 ]
