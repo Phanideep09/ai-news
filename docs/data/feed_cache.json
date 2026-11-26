@@ -1,5 +1,15 @@
 [
   {
+    "id": "http://arxiv.org/abs/2611.34899v1",
+    "source": "arXiv cs.AI",
+    "title": "Enhancing Maritime Domain Awareness using Latent Space Representations",
+    "summary": "This work presents a novel application of Earth Observation (EO) embeddings for Maritime Domain Awareness (MDA) from the perspective of the geospatial foundation model TerraMind. By operating directly on compressed latent-space representations rather than on the original Sentinel-1 imagery, this approach directly addresses the data gravity bottleneck that increasingly constrains operational EO processing, in line with the objectives of the Embed2Scale project. In particular, linear and non-linear probing of compressed embeddings, latent space representations of synthetic aperture radar (SAR) i",
+    "link": "https://arxiv.org/abs/2611.34899v1",
+    "published": "2026-11-25T18:51:36Z",
+    "highlight": "Enhancing Maritime Domain Awareness using Latent Space Representations",
+    "fetched_at": "2026-11-26T11:44:39.040873+00:00"
+  },
+  {
     "id": "http://arxiv.org/abs/2611.33059v1",
     "source": "arXiv cs.AI",
     "title": "ClusterVAD: Threshold-Free Unsupervised Voice Activity Detection with Pre-Trained Neural Representations",
@@ -988,15 +998,5 @@
     "published": "Mon, 14 Sep 2026 15:00:00 +0000",
     "highlight": "Only at TechCrunch Disrupt 2026: What happens when OpenAI ships your roadmap?",
     "fetched_at": "2026-09-14T17:20:12.223924+00:00"
-  },
-  {
-    "id": "http://arxiv.org/abs/2609.13031v1",
-    "source": "arXiv cs.AI",
-    "title": "Attention Quantization for Tabular Foundation Models",
-    "summary": "With the recent rise and adoption of tabular foundation models, optimizing their inference performance becomes an emerging field for efficiency research. While the models are architecturally similar to transformer-based large language models (LLMs), the size and serving patterns differ significantly. We show that the focus should be on the attention calculation and less on weight or KV cache quantization, which are more popular in LLMs. We develop a quantization strategy for queries, keys, and values to FP8 and use explicit FP8 matrix multiplication instructions to speed up the attention calcu",
-    "link": "https://arxiv.org/abs/2609.13031v1",
-    "published": "2026-09-11T16:31:29Z",
-    "highlight": "Attention Quantization for Tabular Foundation Models",
-    "fetched_at": "2026-09-14T17:20:12.993715+00:00"
   }
 ]
